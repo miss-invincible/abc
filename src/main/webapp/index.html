@@ -5,31 +5,33 @@
 <!--style for body -->
 <style type="text/css">
 	body{
-		margin-left: 60%;
-		margin-right: 20%;
-		margin-top: 20%;
+		margin-left: 20%;
+		margin-right: 50%;
+		margin-top: 15%;
 		<!--background-color: #d2b48c;-->
 		border: 1px dotted gray;
-		padding: 20px 20px 10px 10px;
+		padding: 10px 20px 10px 10px;
 		font-family: sans-serif;
 	}
-	label{
-    display: block;
-    float: left;
-	clear: left;
-    width: 250px;
-    text-align: left;
-	color: #FF5A51;
-	font-weight: bold;
+	label
+	{
+		display: inline-block;
+		float: left;
+		clear: left;
+		width: 250px;
+		text-align: left;
+		color: #FF5A51;
+		font-weight: bold;
 	}
 	input {
-	display: block;
-	float: right;
+		display:inline-block;
+		float: left;
 	}
 	
 	.button
-	{	display: block;
-		float: center;
+	{	display:inline-block;
+		float: left;
+		margin-top: 10%;
 		width:100px;
 		height: 30px;
 		<!--background-image:url('tiny.jpg');-->
@@ -49,9 +51,9 @@
 	}
 
 	.button2
-	{	display: block;
-		float: center;
-		
+	{	display:inline-block;
+		float: left;
+		margin-top: 10%;
 		height: 30px;
 		<!--background-image:url('tiny.jpg');-->
 		font-family: Lucida Grande, Geneva, Verdana, Arial, Helvetica, "sans-serif";
@@ -65,28 +67,32 @@
 		text-align: center;
 	}
 	
-}
+	
+	
+
+
 </style>
 
 </head>
 
-<body background="Natural-wallpaper1.jpg">
+<body background="bg2.jpg">
 <body>
 <form action="date2">
 	<div>
 	<label>Name:</label><input type="text" name="param1"/><br/>
 	<label>Password:</label><input type="text" name="param2"/><br/>
 	</div>
-	
+	<div top-margin=20px>
 	<center>
-		<input type="SUBMIT" value="LOG IN" class="button"/>
+		<input type="SUBMIT" value="LOG IN" class="button"/><br/>
 	</center>	
+	</div>
 </form>
 
 <form>
-
+	<div>
 	<input type="Submit" value="SIGN UP FOR FREE" class="button2">
-
+	</div>
 </form>
 
 </body>
