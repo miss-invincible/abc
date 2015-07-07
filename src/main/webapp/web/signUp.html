@@ -1,0 +1,101 @@
+<html>
+<head>
+<!--style for body -->
+<style type="text/css">
+	body{
+		margin-left: 20%;
+		margin-right: 50%;
+		margin-top: 15%;
+		<!--background-color: #d2b48c;-->
+		border: 3px dotted blue;
+		padding: 10px 20px 10px 10px;
+		font-family: sans-serif;
+		//background: rgba(255,155,155,0.2);
+	}
+	label
+	{
+		display: inline-block;
+		float: left;
+		clear: left;
+		width: 250px;
+		text-align: left;
+		color: #FF5A51;
+		font-weight: bold;
+	}
+	input {
+		display:inline-block;
+		float: left;
+	}
+	
+	.button2
+	{	display:inline-block;
+		float: center;
+		clear: center;	
+		margin-top: 5%;
+		height: 30px;
+		<!--background-image:url('tiny.jpg');-->
+		font-family: Lucida Grande, Geneva, Verdana, Arial, Helvetica, "sans-serif";
+		font-size: 16px;
+		font-weight: bold;
+		text-transform: none;
+		border:1px solid transparent;
+		color: #FF5A51;
+		background-color: #d2b48c;
+		border-radius: 100px;
+		text-align: center;
+	}
+	.div1{
+		background: rgba(255,100,10,0.3);
+		width: 50%;
+		height: 60%;
+	}
+	
+
+
+</style>
+
+</head>
+
+<body background="bg2.jpg">
+<body>
+
+<form action="date2">
+	<div class="div1" >
+		<label>
+			Name:
+		</label>
+		<input type="text" name="param1"/>
+		<br/>
+		<label>
+			Password:
+		</label>
+		<input type="password" name="param2.1"/>
+		<br/>
+		<label>
+			Confirm Password:
+		</label>
+		<input type="password" name="param2.2"/>
+		<br/>
+		<label>
+			Email:
+		<label>
+		<input type="text" name="param3"/>
+		<br/>
+		<label>
+		Gender:
+		</label>
+		<label>
+		<select name="gender" size="1">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="other">Other</option>
+		</select>
+		<br/>
+		</label>
+		<input type="Submit" value="Register Me !!" class="button2">
+		<br/>
+	</div>
+
+</body>
+
+</html>
