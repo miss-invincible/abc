@@ -9,9 +9,10 @@
 		margin-right: 50%;
 		margin-top: 15%;
 		<!--background-color: #d2b48c;-->
-		border: 1px dotted gray;
+		border: 3px dotted blue;
 		padding: 10px 20px 10px 10px;
 		font-family: sans-serif;
+		//background: rgba(255,155,155,0.2);
 	}
 	label
 	{
@@ -69,14 +70,24 @@
 		border-radius: 100px;
 		text-align: center;
 	}
+	.div1{
+		background: rgba(255,100,10,0.3);
+		width: 50%;
+		height: 45%;
+	}
+	
+
+
 </style>
 
 </head>
 
-<body background="../images/bg2.jpg">
+<body background="bg2.jpg">
 <body>
-<form action="date2">
-	<div>
+
+
+	<div class="div1" >
+	<form method="POST" action="login.m">
 		<label>
 			Name:
 		</label>
@@ -87,18 +98,12 @@
 		</label>
 		<input type="text" name="param2"/>
 		<br/>
+		<input type="SUBMIT" value="LOG IN" class="button"/><br/>
+	</form>
+	<a href=../web/signUp.html>
+		<input type="Submit" value="SIGN UP FOR FREE" class="button2"><br/>
+	</a>
 	</div>
-	<div>
-			<input type="SUBMIT" value="LOG IN" class="button"/><br/>
-			
-	</div>
-</form>
-
-<form>
-	<div >
-	<input type="Submit" value="SIGN UP FOR FREE" class="button2">
-	</div>
-</form>
 
 </body>
 
