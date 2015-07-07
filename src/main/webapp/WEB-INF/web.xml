@@ -6,11 +6,11 @@
          metadata-complete="false">
 		<servlet>
 			<servlet-name>Login</servlet-name>
-			<servlet-class>/testagain/src/main/webapp/web/LogIn</servlet-class>
+			<servlet-class>\testagain\src\main\webapp\web\LogIn</servlet-class>
 		</servlet>
 		<servlet>
 			<servlet-name>Signup</servlet-name>
-			<servlet-class>/testagain/src/main/webapp/classes/SignUp</servlet-class>
+			<servlet-class>\testagain\src\main\webapp\classes\SignUp</servlet-class>
 		</servlet>
 		<servlet-mapping>
 			<servlet-name>Login</servlet-name>
