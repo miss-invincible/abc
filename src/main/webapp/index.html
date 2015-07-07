@@ -31,6 +31,7 @@
 	.button
 	{	display:inline-block;
 		float: left;
+		clear: left;
 		margin-top: 10%;
 		width:100px;
 		height: 30px;
@@ -53,6 +54,8 @@
 	.button2
 	{	display:inline-block;
 		float: left;
+		clear: left;
+		
 		margin-top: 10%;
 		height: 30px;
 		<!--background-image:url('tiny.jpg');-->
@@ -75,22 +78,29 @@
 
 </head>
 
-<body background="bg2.jpg">
+<body background="../images/bg2.jpg">
 <body>
 <form action="date2">
 	<div>
-	<label>Name:</label><input type="text" name="param1"/><br/>
-	<label>Password:</label><input type="text" name="param2"/><br/>
+		<label>
+			Name:
+		</label>
+		<input type="text" name="param1"/>
+		<br/>
+		<label>
+			Password:
+		</label>
+		<input type="text" name="param2"/>
+		<br/>
 	</div>
-	<div top-margin=20px>
-	<center>
-		<input type="SUBMIT" value="LOG IN" class="button"/><br/>
-	</center>	
+	<div>
+			<input type="SUBMIT" value="LOG IN" class="button"/><br/>
+			
 	</div>
 </form>
 
 <form>
-	<div>
+	<div >
 	<input type="Submit" value="SIGN UP FOR FREE" class="button2">
 	</div>
 </form>
