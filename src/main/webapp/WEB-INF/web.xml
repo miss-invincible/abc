@@ -6,7 +6,7 @@
          metadata-complete="false">
 		<servlet>
 			<servlet-name>Login</servlet-name>
-			<servlet-class>\testagain\src\main\webapp\web\in.ourpoems.LogIn</servlet-class>
+			<servlet-class>/testagain/src/main/webapp/WEB-INF/classes/in.ourpoems.LogIn</servlet-class>
 		</servlet>
 		<servlet>
 			<servlet-name>Signup</servlet-name>
